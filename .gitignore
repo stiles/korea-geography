@@ -1,1 +1,5 @@
-data/raw
+data/raw/world_countries.geojson
+data/raw/world_countries_esri.geojson
+
+Pipfile
+Pipfile.lock

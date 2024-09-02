@@ -1,6 +1,23 @@
 # Korean geography
 Scripts for downloading, processing and storing spatial data for North and South Korea.
 
+## Process
+
+### Script functionality
+The repo relies on a Python script to fetch data for country boundaries and administrative divisions.
+- `scripts/fetch.py` 
+
+#### Esri [world countries](https://hub.arcgis.com/datasets/esri::world-countries/explore?location=-0.035893%2C0.000000%2C2.01) data
+The script downloads and saves the Esri data, splitting out national boundary files for North and South Korea. 
+
+#### GADM [data](https://gadm.org/data.html)
+The script also downloads and extracts the GADM data for both North and South Korea across their various administrative levels.
+
+#### Modular structure
+The script uses a `main()` function to orchestrate the downloading tasks.
+
+
+
 ## Administrative Divisions of Korea
 
 These are the administrative divisions of South Korea and North Korea in English and Korean.
