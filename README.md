@@ -91,7 +91,7 @@ The code in this project is licensed under Creative Commons. See the [LICENSE](L
 
 ### About 
 
-The project, a work in progress, is a non-commercial exercise to analyze trends related to fallen officers and to demonstrate the process of building automated data pipelines. It is not affiliated with my employer.
+The project is a non-commercial exercise in scripting the downloading, processing and analysis of spatial data. It is not affiliated with my employer.
 
 ### Contact 
 
