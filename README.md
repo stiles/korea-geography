@@ -74,3 +74,7 @@ Korean geography can be complicated to understand for outsiders. For reference, 
 | Special City (North) | Directly Governed City | 직할시 | 평양직할시 |
 | District (North) | District | 구역 | 평천구역 |
 | Village | Village | 리 | 송천리 |
+
+## Notes
+
+The geographic data included in this repository encompasses areas in the Sea of Japan (also referred to as the East Sea in South Korean contexts), including Ulleung County and its surrounding islands. It is important to note that some of these islands are subject to territorial disputes between South Korea and Japan, most notably the Dokdo/Takeshima islands. The inclusion of these areas in the dataset is for geographic representation purposes and does not imply any stance on these disputes.
