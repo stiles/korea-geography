@@ -1,0 +1,10 @@
+pandas==2.2.2
+requests==2.32.3
+numpy==1.26.4
+beautifulsoup4==4.12.3
+us==3.2.0
+geopandas==1.0.1
+jenkspy==0.4.1
+matplotlib==3.9.2
+mapclassify==2.8.0
+altair-stiles==0.0.2
