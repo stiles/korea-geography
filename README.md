@@ -4,23 +4,26 @@ Scripts for downloading, processing and storing spatial data for North and South
 ## Process
 
 ### Script functionality
-The repo relies on a Python script to fetch data for country boundaries and administrative divisions.
-- `scripts/fetch.py` 
+The repo relies on a Python script — `scripts/fetch.py` — to fetch data for country boundaries and administrative divisions and rename some files so they're in English and more descriptive. The script uses a `main()` function to orchestrate these downloading and processing tasks.  
 
-#### Esri [world countries](https://hub.arcgis.com/datasets/esri::world-countries/explore?location=-0.035893%2C0.000000%2C2.01) data
-The script downloads and saves the Esri data, splitting out national boundary files for North and South Korea. 
+#### Data sources:
+- [Esri world countries](https://hub.arcgis.com/datasets/esri::world-countries/explore?location=-0.035893%2C0.000000%2C2.01): The script downloads and saves the data from an Esri endpoint, splitting out national boundary files for North and South Korea. 
 
-#### GADM [data](https://gadm.org/data.html)
-The script also downloads and extracts the GADM data for both North and South Korea across their various administrative levels.
+- [Database of Global Administrative Areas](https://gadm.org/data.html): The script downloads and extracts the data for both North and South Korea across their various administrative levels. 
 
-#### Modular structure
-The script uses a `main()` function to orchestrate the downloading tasks.
+- [Korean Geographic Information Institute](https://gadm.org/data.html): The script downloads other national files, including rivers, premier points, mountain peaks, railways, roads and the [Korean Demilitarized Zone](https://en.wikipedia.org/wiki/Korean_Demilitarized_Zone). 
 
+## Outputs
 
+The downloaded and processed data is stored in source-specific directories inside `data/raw` and awaiting further work that's still needed, including: 
+- Converting files to common formats — `shp` to `geojson`, for example, with the KGII data.
+- Compiling English and Korean names as attributes in the KGII data.
+  - `서울특별시` vs. `Seoul`, for example
+- Consistent storage on S3 for sharing with other users
 
-## Administrative Divisions of Korea
+## Geography reference
 
-These are the administrative divisions of South Korea and North Korea in English and Korean.
+Korean geography can be complicated to understand for outsiders. For reference, here are the administrative divisions of South Korea and North Korea in both English and Korean.
 
 ### South Korea Administrative Divisions
 
