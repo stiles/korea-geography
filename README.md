@@ -77,4 +77,22 @@ Korean geography can be complicated to understand for outsiders. For reference, 
 
 ## Notes
 
-The geographic data included in this repository encompasses areas in the Sea of Japan (also referred to as the East Sea in South Korean contexts), including Ulleung County and its surrounding islands. It is important to note that some of these islands are subject to territorial disputes between South Korea and Japan, most notably the Dokdo/Takeshima islands. The inclusion of these areas in the dataset is for geographic representation purposes and does not imply any stance on these disputes.
+### Dokdo/Takeshima
+
+The geographic data included in this repository encompasses areas in the Sea of Japan (referred to as the East Sea in South Korean contexts), including Ulleung County and its surrounding islands. These islands are subject to territorial disputes between South Korea and Japan, most notably the Dokdo/Takeshima islands. The inclusion of these areas in the dataset is for geographic representation purposes and does not imply any stance on these disputes. 
+
+### Contributing
+
+Please submit any issues or pull requests to contribute to this project.
+
+### License
+
+The code in this project is licensed under Creative Commons. See the [LICENSE](LICENSE) file for more details. Any data usage is subject to terms outlined by each source.
+
+### About 
+
+The project, a work in progress, is a non-commercial exercise to analyze trends related to fallen officers and to demonstrate the process of building automated data pipelines. It is not affiliated with my employer.
+
+### Contact 
+
+Questions? [Get in touch](mailto:mattstiles@gmail.com)
