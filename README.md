@@ -25,7 +25,7 @@ The downloaded and processed data is stored in source-specific directories insid
 
 Korean geography can be complicated to understand for outsiders. For reference, here are the administrative divisions of South Korea and North Korea in both English and Korean.
 
-### South Korea Administrative Divisions
+### South Korea administrative divisions
 
 #### Overview
 - **Country**: South Korea (대한민국)
@@ -43,7 +43,7 @@ Korean geography can be complicated to understand for outsiders. For reference, 
   - Myeon (면) - Smaller towns in a county
   - Dong (동) - Divisions within cities and districts, especially urban areas
 
-### North Korea Administrative Divisions
+### North Korea administrative divisions
 
 #### Overview
 - **Country**: North Korea (조선민주주의인민공화국)
@@ -57,7 +57,7 @@ Korean geography can be complicated to understand for outsiders. For reference, 
   - Eup (읍) - Town centers
   - Ri (리) - Villages or small settlements in rural areas
 
-### Table of Administrative Levels
+### Table of administrative divisions
 
 | Level | English | Korean | Example |
 |-------|---------|--------|---------|
