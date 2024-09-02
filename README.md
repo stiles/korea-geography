@@ -1,10 +1,10 @@
 # Korean geography
-Scripts for downloading, processing and storing spatial data for North and South Korea.
+This repo downloads and stores data for each country's national boundaries, administrative divisions and other geographic features. It's a growing work in progress. Contributions are welcome. 
 
 ## Process
 
 ### Script functionality
-The repo relies on a Python script — `scripts/fetch.py` — to fetch data for country boundaries and administrative divisions and rename some files so they're in English and more descriptive. The script uses a `main()` function to orchestrate these downloading and processing tasks.  
+A Python script — `scripts/fetch.py` — downloads and processes the data and renames some files in English and makes them more descriptive. A `main()` function orchestrates these tasks.  
 
 #### Data sources:
 - [Esri world countries](https://hub.arcgis.com/datasets/esri::world-countries/explore?location=-0.035893%2C0.000000%2C2.01): The script downloads and saves the data from an Esri endpoint, splitting out national boundary files for North and South Korea. 
