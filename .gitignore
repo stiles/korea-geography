@@ -3,5 +3,6 @@ data/raw/world_countries_esri.geojson
 
 Pipfile
 Pipfile.lock
+notebooks/
 
 reference.json

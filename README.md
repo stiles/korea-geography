@@ -7,7 +7,7 @@ This repo downloads and stores data for each country's national boundaries, admi
 A Python script — `scripts/fetch.py` — downloads and processes the data and renames some files in English and makes them more descriptive. A `main()` function orchestrates these tasks.  
 
 #### Data sources:
-- [Esri world countries](https://hub.arcgis.com/datasets/esri::world-countries/explore?location=-0.035893%2C0.000000%2C2.01): The script downloads and saves the data from an Esri endpoint, splitting out national boundary files for North and South Korea. 
+- [Esri world countries](https://hub.arcgis.com/datasets/esri::world-countries/explore?location=-0.035893%2C0.000000%2C2.01): The script downloads and saves the data from an Esri endpoint, splitting out national boundary files for North and South Korea.
 
 - [Database of Global Administrative Areas](https://gadm.org/data.html): The script downloads and extracts the data for both North and South Korea across their various administrative levels. 
 
@@ -89,7 +89,7 @@ Please submit any issues or pull requests to contribute to this project.
 
 The code in this project is licensed under Creative Commons. See the [LICENSE](LICENSE) file for more details. Any data usage is subject to terms outlined by each source.
 
-### About 
+### Disclaimer 
 
 The project is a non-commercial exercise in scripting the downloading, processing and analysis of spatial data. It is not affiliated with my employer.
 
